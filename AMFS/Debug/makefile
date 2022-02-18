@@ -61,8 +61,8 @@ all: main-build
 main-build: AMFS.elf secondary-outputs
 
 # Tool invocations
-AMFS.elf: $(OBJS) $(USER_OBJS) I:\My\ Drive\Coding\Firmware\STM32\AMFS\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "AMFS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"I:\My Drive\Coding\Firmware\STM32\AMFS\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AMFS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+AMFS.elf: $(OBJS) $(USER_OBJS) /home/jdvillarroel/Documents/Firmware/STM32/AMFS/STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "AMFS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/jdvillarroel/Documents/Firmware/STM32/AMFS/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AMFS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

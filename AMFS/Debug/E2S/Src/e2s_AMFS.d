@@ -1,5 +1,5 @@
 E2S/Src/e2s_AMFS.o: ../E2S/Src/e2s_AMFS.c \
- I:/My\ Drive/Coding/Firmware/STM32/AMFS/E2S/Inc/e2s_AMFS.h \
+ /home/jdvillarroel/Documents/Firmware/STM32/AMFS/E2S/Inc/e2s_AMFS.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -31,7 +31,7 @@ E2S/Src/e2s_AMFS.o: ../E2S/Src/e2s_AMFS.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 
-I:/My\ Drive/Coding/Firmware/STM32/AMFS/E2S/Inc/e2s_AMFS.h:
+/home/jdvillarroel/Documents/Firmware/STM32/AMFS/E2S/Inc/e2s_AMFS.h:
 
 ../Core/Inc/main.h:
 
