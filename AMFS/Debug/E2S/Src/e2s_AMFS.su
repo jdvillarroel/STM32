@@ -1,0 +1,8 @@
+e2s_AMFS.c:51:6:AMFSInit	24	static
+e2s_AMFS.c:83:13:delayTimerClockBase	16	static
+e2s_AMFS.c:94:6:writeDigit	16	static
+e2s_AMFS.c:117:13:shiftByteOut	24	static
+e2s_AMFS.c:149:6:update7SD	4	static
+e2s_AMFS.c:167:6:write7SD	16	static
+e2s_AMFS.c:182:6:write7SDMemory	40	static
+e2s_AMFS.c:217:9:decodeNumber	24	static
