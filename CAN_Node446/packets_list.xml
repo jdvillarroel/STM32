@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="waitCmd">
+      <payload>4A000000000000000056</payload>
+    </packet>
+    <packet name="CANListen">
+      <payload>4A010000000000000056</payload>
+    </packet>
+    <packet name="CANStops">
+      <payload>4A020000000000000056</payload>
+    </packet>
+    <packet name="resetMCU">
+      <payload>4A030000000000000056</payload>
+    </packet>
+    <packet name="writeFlashBuffer">
+      <payload>4A040100000000000056</payload>
+    </packet>
+    <packet name="readFlashBuffer">
+      <payload>4A050000000000000056</payload>
+    </packet>
+    <packet name="writeFlashBufferToFlash">
+      <payload>4A060000000000000056</payload>
+    </packet>
+    <packet name="readFlashToFlashBuffer">
+      <payload>4A070000000000000056</payload>
+    </packet>
+    <packet name="writeDefaultToFlash">
+      <payload>4A080000000000000056</payload>
+    </packet>
+    <packet name="CANStart">
+      <payload>4A090000000000000056</payload>
+    </packet>
+  </packets_list>
+</data>
